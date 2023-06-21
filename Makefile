@@ -11,21 +11,23 @@ OBJS_C = $(SRCS_C:.c=.o)
 
 all: $(NAME_S) $(NAME_C)
 
-$(NAME_S): $(OBJS_S) $(LIBFTPRINTF)
+bonus: all
+
+$(NAME_S): $(OBJS_S)
 	$(CC) $(CFLAGS) $(OBJS_S) -o $(NAME_S) -I$(INCL)
 
-$(NAME_C): $(OBJS_C) $(LIBFTPRINTF)
+$(NAME_C): $(OBJS_C)
 	$(CC) $(CFLAGS) $(OBJS_C) -o $(NAME_C) -I$(INCL)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJS_S) $(OBJS_C)
+	$(RM) $(OBJS_S) $(OBJS_C)
 
 fclean: clean
-	rm -f $(NAME_S) $(NAME_C)
+	$(RM) $(NAME_S) $(NAME_C)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   libftprintf_main.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khorike <khorike@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: khorike <khorike@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/29 14:53:24 by khorike           #+#    #+#             */
-/*   Updated: 2023/06/14 13:58:53 by khorike          ###   ########.fr       */
+/*   Updated: 2023/06/18 14:32:49 by khorike          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "minitalk.h"
 
 size_t	ft_strlen(const char *s)
 {

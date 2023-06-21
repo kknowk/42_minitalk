@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_conversions.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khorike <khorike@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: khorike <khorike@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 14:59:08 by khorike           #+#    #+#             */
-/*   Updated: 2023/06/14 15:52:11 by khorike          ###   ########.fr       */
+/*   Updated: 2023/06/18 14:32:56 by khorike          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "minitalk.h"
 
 ssize_t	ft_putchar(char c)
 {

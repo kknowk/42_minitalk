@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minitalk.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khorike <khorike@student.42tokyo.jp>       +#+  +:+       +#+        */
+/*   By: khorike <khorike@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/16 15:31:57 by khorike           #+#    #+#             */
-/*   Updated: 2023/06/16 18:04:35 by khorike          ###   ########.fr       */
+/*   Updated: 2023/06/20 13:33:34 by khorike          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <string.h>
 # include <stdarg.h>
 # include <limits.h>
+# include <stdbool.h>
 
 ssize_t			ft_putchar(char c);
 ssize_t			ft_putstr(char *s);
